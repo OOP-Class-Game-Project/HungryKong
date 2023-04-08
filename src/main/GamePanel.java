@@ -40,36 +40,7 @@ public void startgameThread() {
 	gameThread.start();
 }
 	@Override
-// 	public void run() { 
-// 		double drawInterval = 1000000000/FPS
-// 		double nextDrawTime = System.nanoTime() + drawInterval;
-// 		while(gameThread != null){
-			
-// 			long currentTime = System.nanoTime();
-// 			System.out.println("current Time :" +currentTime);
-			
-// 			//1 Update : update information such as character positions
-// 			update();
-			
-// 			//2 DRAW : Draw the screen with the updated information
-// 			repaint();
-		
-// 			try{
-// 				double remainingTime = nextDrawTime - System.nanoTime();
-// 				remainingTime = remainingTime/1000000;
-				
-// 				if(remainingTime<0) {
-// 					remainingTime=0;
-// 				}
-				
-// 				Thread.sleep((long) remainingTime);
-// 				nextDrawTime += drawInterval;
-// 			}
-// 			catch (InterruptedException e){
-// 				e.printStackTrace();
-// 			}
-// 		}
-// 	}
+
 	
 		public void run(){
 			double drawInterval = 1000000000/FPS;
