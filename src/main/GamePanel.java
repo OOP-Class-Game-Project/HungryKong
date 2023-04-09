@@ -43,6 +43,8 @@ public void startgameThread() {
 	gameThread.start();
 }
 	@Override
+
+	
 		public void run(){
 			double drawInterval = 1000000000/FPS;
 			double delta = 0;
